@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97658338297",
+    "firebase_url": "https://progwl.firebaseio.com",
+    "project_id": "progwl",
+    "storage_bucket": "progwl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97658338297:android:02b91a2bff8eaa650a5b28",
+        "android_client_info": {
+          "package_name": "ahmet.com.pwl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97658338297-kl338a2eeui8m63r19s96jnhuiarmv1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ahmet.com.pwl",
+            "certificate_hash": "4324ad0f12401652f530323085992937f7305dd2"
+          }
+        },
+        {
+          "client_id": "97658338297-6em68jmk0mg4atc87f13gejgi32ededb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvX8DLcdevZUT8MIdV6dVUHAm_AoQM1uI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97658338297-6em68jmk0mg4atc87f13gejgi32ededb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
