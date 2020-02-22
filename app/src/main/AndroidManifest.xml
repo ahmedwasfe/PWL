@@ -9,13 +9,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity">
+
+        <activity android:name=".SubActivity.ActivitesActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".HomeActivity"/>
+
+        <activity
+            android:name=".SubActivity.RevenueActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity
+            android:name=".SubActivity.StudentActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubActivity.CoursesActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubActivity.TeacherDetailsActivity"
+            android:parentActivityName=".SubActivity.TeacherDeptActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SubActivity.TeacherDeptActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBAr"/>
+
     </application>
 
 </manifest>

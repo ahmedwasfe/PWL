@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="widthheight">0dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="textCardSize24">24sp</dimen>
+    <dimen name="margin12">12dp</dimen>
+    <dimen name="margin5">5dp</dimen>
+
+</resources>
